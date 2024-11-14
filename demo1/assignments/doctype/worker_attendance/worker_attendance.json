@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-26 13:28:08.770660",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_2wjp",
+  "id",
+  "worker_name",
+  "site_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_2wjp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "Worker Id",
+   "options": "Worker Details"
+  },
+  {
+   "fetch_from": "id.worker_name",
+   "fieldname": "worker_name",
+   "fieldtype": "Data",
+   "label": "Worker Name",
+   "options": "Fetch from Worker Details"
+  },
+  {
+   "fetch_from": "id.sitename",
+   "fieldname": "site_name",
+   "fieldtype": "Data",
+   "label": "Site Name",
+   "options": "Fetch from Worker Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-28 10:34:50.084337",
+ "modified_by": "Administrator",
+ "module": "Assignments",
+ "name": "Worker Attendance",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

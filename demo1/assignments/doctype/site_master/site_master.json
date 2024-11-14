@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:sitename",
+ "creation": "2024-10-24 12:21:06.242852",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_qukp",
+  "sitename",
+  "sitedate",
+  "active"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_qukp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sitename",
+   "fieldtype": "Data",
+   "label": "Site Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "sitedate",
+   "fieldtype": "Date",
+   "label": "Site Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "is Active"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-24 12:59:47.157184",
+ "modified_by": "Administrator",
+ "module": "Assignments",
+ "name": "Site_Master",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

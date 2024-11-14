@@ -138,11 +138,10 @@ app_license = "mit"
 # Hook on document methods and events
 
 # doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
+#     "Site_Master": {
+#         #"after_insert": "apps/demo1/demo1/assignments/doctype/site_activation_details/site_activation_details.py"
+#         "on_update": "apps/demo1/demo1/assignments/doctype/site_activation_details/site_activation_details.py"
+#     }
 # }
 
 # Scheduled Tasks
@@ -242,3 +241,6 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# hooks.py
+
+ 

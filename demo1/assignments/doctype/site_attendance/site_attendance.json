@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-24 12:20:46.183320",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_7cer",
+  "sitename",
+  "atten_date",
+  "total_workers",
+  "present_workers",
+  "absent_workers",
+  "attendance_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_7cer",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sitename",
+   "fieldtype": "Link",
+   "label": "Site Name",
+   "options": "Site_Master"
+  },
+  {
+   "fieldname": "l",
+   "fieldtype": "Date",
+   "label": "Attendance Date"
+  },
+  {
+   "fieldname": "total_workers",
+   "fieldtype": "Int",
+   "label": "Total Worker",
+   "options": "total no of workers linked to that site"
+  },
+  {
+   "fieldname": "present_workers",
+   "fieldtype": "Int",
+   "label": "Present Workers",
+   "options": "count of workers in worker attendance child table"
+  },
+  {
+   "fieldname": "absent_workers",
+   "fieldtype": "Data",
+   "label": "Absent Workers",
+   "options": "Total Workers -Present Workers. Should be auto calculated(Server Script)"
+  },
+  {
+   "fieldname": "attendance_details",
+   "fieldtype": "Table",
+   "label": "Attendance Details",
+   "options": "Worker Attendance"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-26 13:34:21.438120",
+ "modified_by": "Administrator",
+ "module": "Assignments",
+ "name": "Site_Attendance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:worker_id",
+ "creation": "2024-10-26 11:37:23.852073",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_octh",
+  "worker_id",
+  "worker_name",
+  "sitename",
+  "reg_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_octh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "worker_id",
+   "fieldtype": "Data",
+   "label": "Worker Id",
+   "unique": 1
+  },
+  {
+   "fieldname": "worker_name",
+   "fieldtype": "Data",
+   "label": "Worker Name"
+  },
+  {
+   "fieldname": "sitename",
+   "fieldtype": "Link",
+   "label": "Site Name",
+   "options": "Site_Master"
+  },
+  {
+   "fieldname": "reg_date",
+   "fieldtype": "Date",
+   "label": "Registration Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-28 10:57:31.803164",
+ "modified_by": "Administrator",
+ "module": "Assignments",
+ "name": "Worker Details",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

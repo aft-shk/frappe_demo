@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "creation": "2024-10-24 14:10:25.309416",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_moq4",
+  "site_name",
+  "startdate",
+  "deactivation_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_moq4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "startdate",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "site_name",
+   "fieldtype": "Link",
+   "label": "Site Name",
+   "options": "Site_Master"
+  },
+  {
+   "fieldname": "deactivation_date",
+   "fieldtype": "Date",
+   "label": "Deactivation Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-26 12:05:28.403582",
+ "modified_by": "Administrator",
+ "module": "Assignments",
+ "name": "Site Activation Details",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
